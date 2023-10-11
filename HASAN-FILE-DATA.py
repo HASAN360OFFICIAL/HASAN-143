@@ -163,7 +163,7 @@ while attemps < 12345677901:
     
     password = input(' \033[0;93mEnter Password: ')
 
-    if username == 'DA' and password == 'TA':
+    if username == 'D' and password == 'T':
     	
         print(' \033[0;92mYou Have Successfully Logged in.')
         
